@@ -1,0 +1,117 @@
+:root {
+   /* variables de colores */
+   --amarillo: #EAC926;
+   --azul: #03264C;
+   --Celeste: #1259c3;
+   --Gris-oscuro: #666;
+   --Gris-claro: #ebebeb;
+   --Verde: #39b54a;
+   /* fuentes */
+   --fuente: 'Roboto', sans-serif;
+   /* tamaños tipograficos */
+   --parrafos: 12px;
+   --titulos: 24px;
+   --precio: 18px;
+   --descuento: 16px;
+   --descripcion: 16px;
+
+}
+
+ /* 
+Titulares (Basado en tu última visita/Ofertas): 24px
+ */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+}
+
+body {
+  background-color: var(--Gris-claro);
+   font-family: var(--fuente);
+}
+
+li {
+   list-style: none;
+}
+
+header {
+    background-color: var(--amarillo);
+    padding: 25px 0;
+   
+}
+
+header div.logo{
+   width: 130px;
+   margin-left: 25px;
+}
+
+header div.busqueda{
+  margin-left: 15px;
+  width: 170px;
+  margin-bottom: 10px;
+}
+ header p{
+  text-align: center;
+  margin-bottom: 15px;
+ }
+
+header div.burger-menu {
+  background-color: var(--Celeste);
+  color: white;
+  width: 15px;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 25px auto 0;
+}
+
+
+header nav ul.lista-superior{
+  margin-bottom: 15px;
+  font-size: var(--parrafos);
+}
+header nav ul li {
+  font-size: var(--parrafos);
+}
+
+main section h4{
+   font-size: var(--titulos);
+ }
+
+main section article p#precio {
+  font-size: var(--precio);
+}
+
+main section article p#descuento {
+  font-size: var(--descuento);
+}
+
+main section article h5.descripcion {
+  font-size: var(--descripcion);
+}
+
+footer {
+  background-color: white;
+  padding: 10px;
+}
+
+footer article i{
+  align-items: center;
+  margin-block-start: 30px;
+  margin-block-end: 20px;
+  color: var(--Celeste);
+  font-size: 2em;
+}
+
+footer article {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-block-end: 40px;
+  text-align: center;
+}
+
+
